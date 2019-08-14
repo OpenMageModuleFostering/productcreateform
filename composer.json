@@ -3,7 +3,9 @@
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
-    "description": "this plugin use for those product who want to give opportunity to customer for create product in website
+    "description": "This extension allows to create product from front-end
+set category id,attribute set id in configuration
+
 ",
     "authors": [
     {

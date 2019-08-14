@@ -11,12 +11,13 @@ class Product_Createform_IndexController extends Mage_Core_Controller_Front_Acti
     {
 		$post = $this->getRequest()->getParams();
 		$categoryid= Mage::getStoreConfig('createform/createform/category_id'); 
+		$attributesetid = Mage::getStoreConfig('createform/createform/attribute_id');
 		//print_r($post);
 		//exit;
        	if($post){
        		$product = new Mage_Catalog_Model_Product();
 			$product->setSku($post['name']."_new");
-			$product->setAttributeSetId(9);
+			$product->setAttributeSetId($attributesetid);
 			$product->setTypeId('simple');
 			$product->setName($post['name']);
 			$product->setCategoryIds(array($categoryid)); # some cat id's, fill in backend
