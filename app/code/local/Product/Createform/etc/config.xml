@@ -59,9 +59,9 @@
                         <children>
                             <config>
                                 <children>
-                                    <Product_Createform>
-                                        <title>testimonial - All</title>
-                                    </Product_Createform>
+                                    <createform>
+                                        <title>createform - All</title>
+                                    </createform>
                                 </children>
                             </config>
                         </children>
