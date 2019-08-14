@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <createform_adminhtml_createform_index>
+        <reference name="content">
+            <block type="createform/adminhtml_createform" name="createform" />
+        </reference>
+    </createform_adminhtml_createform_index>
+</layout>

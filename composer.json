@@ -1,0 +1,17 @@
+{
+    "name": "OpenMageModuleFostering/ProductCreateform",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "this plugin use for those product who want to give opportunity to customer for create product in website
+",
+    "authors": [
+    {
+        "name": "Abhay",
+        "email": "abhay5683@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

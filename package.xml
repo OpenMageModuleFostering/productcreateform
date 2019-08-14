@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+    <name>ProductCreateform</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>this plugin use for those product who want to give opportunity to customer for create product in website&#xD;
+</summary>
+    <description>this plugin use for those product who want to give opportunity to customer for create product in website&#xD;
+&#xD;
+&#xD;
+&#xD;
+use above plugin to give opportunity to create product name so when customer submit productname it will create in admin catalog/manageproduct with non visibility options&#xD;
+&#xD;
+for more details please contact &#xD;
+http://abhaykhatariya.blogspot.com</description>
+    <notes>version 1.0.1</notes>
+    <authors><author><name>Abhay</name><user>abhay5683</user><email>abhay5683@gmail.com</email></author></authors>
+    <date>2013-12-23</date>
+    <time>11:44:07</time>
+    <contents><target name="magelocal"><dir name="Product"><dir name="Createform"><dir name="Block"><dir name="Adminhtml"><dir name="Createform"><dir name="Edit"><file name="Form.php" hash="49dea4cca08c3e8134d0017c13d43b88"/><dir name="Tab"><file name="Form.php" hash="fbbc9ccf6ba47af7dcafb2ee6d29af7c"/></dir><file name="Tabs.php" hash="53d198909f1c849724e862fda0d2f1ae"/></dir><file name="Edit.php" hash="fa32ca50b603f75451913f2f2117db3e"/><file name="Grid.php" hash="0e8b6685ce30aae7c637d809af982a9a"/></dir><file name="Createform.php" hash="70a1fac8fdd90d0a3f262b058c1ddb69"/></dir><file name="Createform.php" hash="d288254b7e656f4197b3733ec51a0b5b"/></dir><dir name="Helper"><file name="Data.php" hash="b6d2bf51be0dacc2d514f54c3bf68290"/></dir><dir name="Model"><file name="Createform.php" hash="e4fd1d687abafd8f81ac4e75165ebb5f"/><dir name="Mysql4"><dir name="Createform"><file name="Collection.php" hash="ea541d8eaa558ba07a0081733972f84b"/></dir><file name="Createform.php" hash="afb95c6e290dd9fe1931f8d985fbfb12"/></dir><file name="Status.php" hash="3d09ae900bcc1d0dd65bf5913898946d"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="CreateformController.php" hash="f8c7fdb7011f718652e08930d2c6ac5e"/></dir><file name="IndexController.php" hash="b33913810d70290b6c6f62ddb5ef7d3c"/></dir><dir name="etc"><file name="config.xml" hash="b623feea34dc8afb4520f0ff28fbe95a"/><file name="system.xml" hash="bdf5ebb6b7dfabe8801392d812aa4281"/></dir><dir name="sql"><dir name="createform_setup"><file name="mysql4-install-0.1.0.php" hash="8dbd6bea027f846154cf66a4a9879988"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Product_Createform.xml" hash="ae9989f2eb668c13996f660c949076fc"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="createform.xml" hash="0f53056e27968b96e99ac96ad9150db9"/></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="createform.xml" hash="13be78a6d63b9b835b77dfc2686d7d5d"/></dir><dir name="template"><dir name="createform"><file name="createform.phtml" hash="af210f14f363e929085c399cb922220a"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>5.4.10</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7.0.2</max></package></required></dependencies>
+</package>
