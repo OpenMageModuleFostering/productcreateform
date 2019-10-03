@@ -1,19 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/ProductCreateform",
-    "type": "magento-module",
-    "license": "OSL",
-    "homepage": "",
-    "description": "This extension allows to create product from front-end
-set category id,attribute set id in configuration
-
-",
-    "authors": [
-    {
-        "name": "Abhay",
-        "email": "abhay5683@gmail.com"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
